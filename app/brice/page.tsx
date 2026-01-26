@@ -1,16 +1,14 @@
-import { Metadata } from 'next'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'Résumé - Brice × Mehdi',
-  robots: {
-    index: false,
-    follow: false,
-  },
-}
+import Head from 'next/head'
 
 export default function BricePage() {
   return (
     <>
+      <Head>
+        <title>Résumé - Brice × Mehdi</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
       <style jsx global>{`
         * {
           margin: 0;
