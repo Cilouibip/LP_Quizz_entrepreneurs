@@ -341,8 +341,9 @@ export default function BricePage() {
         .pilier-content li {
           font-size: 13px;
           color: #6B6560;
-          padding: 6px 0;
+          padding: 8px 0;
           border-bottom: 1px solid #F5F3F0;
+          line-height: 1.4;
         }
 
         .pilier-content li:last-child {
@@ -498,7 +499,7 @@ export default function BricePage() {
           <p className="section-label next">Next step</p>
           <div className="card" style={{ marginBottom: '24px' }}>
             <p style={{ fontSize: '18px', fontWeight: 500, color: '#2D2A26', marginBottom: '8px' }}>Un audit de 60 min pour identifier les vrais blocages et prioriser.</p>
-            <p style={{ fontSize: '15px', color: '#6B6560' }}>Tu partages ton écran, on creuse ensemble.</p>
+            <p style={{ fontSize: '15px', color: '#6B6560' }}>Tu partages ton écran, on creuse ensemble. Exemples de sujets :</p>
           </div>
           
           <div className="piliers-grid">
@@ -506,9 +507,8 @@ export default function BricePage() {
               <div className="pilier-header positionnement">🎯 Positionnement</div>
               <div className="pilier-content">
                 <ul>
-                  <li>Ton client idéal vs qui arrive vraiment</li>
-                  <li>Les vraies raisons des "non"</li>
-                  <li>Ce qui déclenche l&apos;achat</li>
+                  <li>Est-ce que ceux qui arrivent en R1 correspondent à ton client idéal ?</li>
+                  <li>Pourquoi les gens disent "non" — la vraie raison, pas "trop cher"</li>
                 </ul>
               </div>
             </div>
@@ -516,9 +516,9 @@ export default function BricePage() {
               <div className="pilier-header acquisition">📢 Acquisition</div>
               <div className="pilier-content">
                 <ul>
-                  <li>Ton funnel ads — où ça fuit</li>
-                  <li>Les posts qui convertissent</li>
-                  <li>Les 300 leads dans Folk</li>
+                  <li>Dans ton funnel ads, où tu perds le plus de monde ? Analyse de la VSL.</li>
+                  <li>Quels contenus LinkedIn amènent des vrais R1 (pas juste des likes) ?</li>
+                  <li>Les 300 leads dans Folk — c&apos;est qui ? Exploités ou pas ?</li>
                 </ul>
               </div>
             </div>
@@ -526,18 +526,18 @@ export default function BricePage() {
               <div className="pilier-header process">⚙️ Process</div>
               <div className="pilier-content">
                 <ul>
-                  <li>Comment se passent tes R1/R2</li>
-                  <li>Le plan avec le setter</li>
-                  <li>Ce que tu veux garder vs déléguer</li>
+                  <li>Comment se passent tes R1 et R2 aujourd&apos;hui ?</li>
+                  <li>C&apos;est quoi le plan exact avec le setter ?</li>
+                  <li>Qu&apos;est-ce que tu veux garder vs déléguer ?</li>
                 </ul>
               </div>
             </div>
             <div className="pilier-card">
-              <div className="pilier-header data">�� Data</div>
+              <div className="pilier-header data">📊 Data</div>
               <div className="pilier-content">
                 <ul>
-                  <li>Ce que tu mesures aujourd&apos;hui</li>
-                  <li>Ce que tu ne sais pas encore</li>
+                  <li>Qu&apos;est-ce que tu mesures aujourd&apos;hui ?</li>
+                  <li>Qu&apos;est-ce que tu ne sais pas (et que tu aimerais savoir) ?</li>
                 </ul>
               </div>
             </div>
